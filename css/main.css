@@ -1,0 +1,115 @@
+/********************************************************************************
+	CSS Estilos
+	Nombre: 
+	Responsable: Noemi M.
+********************************************************************************/
+.span12
+{
+width:940px
+}
+.span11
+{
+width:860px
+}
+.span10
+{
+width:780px
+}
+.span9
+{
+width:700px
+}
+.span8
+{
+width:620px
+}
+.span7
+{
+width:540px
+}
+.span6
+{
+width:460px
+}
+.span5
+{
+width:380px
+}
+.span4
+{
+width:300px
+}
+.span3
+{
+width:220px
+}
+.span2
+{
+width:140px
+}
+.span1
+{
+width:60px
+}
+
+/********************************************************************************
+	CSS Estilos
+	Nombre: Estado de la captura
+	Responsable: David P.
+********************************************************************************/
+
+div.navbar {
+    background-color: 	#9ACD32;
+    border: 1px solid ;
+    color: white;
+    font-size: 1.2em;
+    min-height: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+    height: 1.4em;
+    font-family: Verdana;
+}
+
+div.container {
+    border-right: 1px solid;
+    font-family: "Arial";
+	font-size: 0.9em;
+    font-weight: lighter;
+    height: 38%;
+    border: 2px solid GhostWhite;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+div.botones {
+   
+    margin-left: 18%;
+    margin-right: 18%;
+	text-align:center;
+
+}
+div.group {
+    border: 2px solid GhostWhite;
+    font-family: "Arial";
+    font-size: 1.1em;
+    font-weight: bold;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 90%;
+}
+.span12
+{
+	width:70%;
+	
+}
+
+div#indicadores .row-fluid:nth-child(odd):not(#indicadores-headers) 
+{
+
+    background-color: GhostWhite;
+	border: 1px solid Gainsboro;
+}
+
