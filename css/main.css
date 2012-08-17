@@ -3,55 +3,54 @@
 	Nombre: 
 	Responsable: Noemi M.
 ********************************************************************************/
-.span12
-{
-width:940px
+.span12 {
+    
+    width: 104%;
 }
-.span11
-{
-width:860px
+.span11 {
+   
+    width: 95%;
 }
-.span10
-{
-width:780px
+.span10 {
+    
+    width: 86%;
 }
-.span9
-{
-width:700px
+.span9 {
+    
+    width: 77%;
 }
-.span8
-{
-width:620px
+.span8 {
+    
+    width: 68%;
 }
-.span7
-{
-width:540px
+.span7 {
+    
+    width: 60%;
 }
-.span6
-{
-width:460px
+.span6 {
+    
+    width: 51%;
 }
-.span5
-{
-width:380px
+.span5 {
+   
+    width: 42%;
 }
-.span4
-{
-width:300px
+.span4 {
+    
+    width: 33%;
 }
-.span3
-{
-width:220px
+.span3 {
+    
+    width: 24%;
 }
-.span2
-{
-width:140px
+.span2 {
+    
+    width: 16%;
 }
-.span1
-{
-width:60px
+.span1 {
+    
+    width: 7%;
 }
-
 /********************************************************************************
 	CSS Estilos
 	Nombre: Estado de la captura
@@ -59,7 +58,7 @@ width:60px
 ********************************************************************************/
 
 div.navbar {
-    background: url("../img/navbar.png") repeat scroll 338px 492px #66CC00;
+    background: url("../img/navbar.png") repeat scroll 407px 574px #66CC00;
     border: 1px solid ;
     color: white;
     font-family: Verdana;
@@ -72,45 +71,467 @@ div.navbar {
     font-weight: bold;
 }
 
-div.container {
-    border-right: 1px solid;
+/*****************************
+Contenedor para docentes y Admin
+******************************/
+.container {
+    border-radius: 15px 15px 15px 15px;
     font-family: "Arial";
 	font-size: 0.9em;
     font-weight: lighter;
-    height: 38%;
+    height: 1200px;
     border: 2px solid GhostWhite;
-    height: auto;
     width: 80%;
     margin-left: 10%;
     margin-top: 1%;
+	font-family:verdana, arial, helvetica, sans-serif;
 }
-div.botones {
-   
-    margin-left: 18%;
-    margin-right: 18%;
-	text-align:center;
-
-}
-div.group {
+/*****************************
+      Contenedor para alumnos
+******************************/
+.container-alum {
+    border-radius: 15px 15px 15px 15px;
+    font-family: "Arial";
+	font-size: 0.9em;
+    font-weight: lighter;
+    height: 680px;
     border: 2px solid GhostWhite;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+	font-family:verdana, arial, helvetica, sans-serif;
+}
+.botones {
+    background: none repeat scroll 0 0 MintCream;
+    border: 2px solid LightGrey;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    margin: -1px 11% 40px 0;
+    padding: 14px;
+    text-align: center;
+    width: 97%;
+    word-spacing: 74px;
+}
+/*****************************
+      grupo: normal
+******************************/
+.group {
+    border: 2px solid LawnGreen;
+	border-radius: 10px 10px 10px 10px;
     font-family: "Arial";
     font-size: 1.1em;
-    font-weight: bold;
-    height: auto;
+    font-weight: lighter;
+    height: 90px;
     margin-left: 5%;
     margin-top: 1%;
-    width: 90%;
+    width: 85%;
+	background: none repeat scroll 0 0 white;
+    margin: auto;
+    padding: 14px;
+	margin-bottom: 20px;
+	display: block;
 }
-.span12
-{
-	width:70%;
+/*****************************
+      grupo: extra
+******************************/
+.group2 {
+    border: 2px solid LawnGreen;
+	border-radius: 10px 10px 10px 10px;
+    font-family: "Arial";
+    font-size: 1.1em;
+    font-weight: lighter;
+    height: 180px;
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 85%;
+	background: none repeat scroll 0 0 white;
+    margin: auto;
+    padding: 14px;
+	margin-bottom: 20px;
+	display: block;
+   
+}
+/*****************************
+      etiqueta de grupo
+******************************/
+.detalle {
+    
+    border: 2px solid ghostWhite;
+    border-radius: 5px 5px 5px 5px;
+    color: #666666;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -23px;
+    text-align: center;
+    width: 100px;
+    color: white;
+	background-color: #FFC60B;
+    background-image: -moz-linear-gradient(center top , #E08400, #FFC60B);
+	
 	
 }
+/*****************************
+      grupo: Empresa
+******************************/
+.numero {
+    position: relative;
+    top: 14px;
+    left: 40px;
+}
+.inputnumero {
+    left: 130px;
+    position: relative;
+    bottom: 10px;
+}
+.clave {
+    left: 329px;
+    position: relative;
+    bottom: 30px;
+}
+.inputclave {
+    left: 400px;
+    position: relative;
+    bottom: 55px;
+}
+.name {
+    bottom: 40px;
+    left: 40px;
+    position: relative;
+}
+.inputname {
+    bottom: 65px;
+    left: 130px;
+    position: relative;
+}
+.sector {
+    bottom: 52px;
+    left: 40px;
+    position: relative;
+}
+.inputsector {
+    bottom: 75px;
+    left: 130px;
+    position: relative;
+}
+.tamano {
+    bottom: 96px;
+    left: 329px;
+    position: relative;
+}
+.inputtamano {
+    bottom: 120px;
+    left: 401px;
+    position: relative;
+}
+/*****************************
+      grupo: direccion
+******************************/
+.calle {
+    left: 40px;
+    position: relative;
+    top: 14px;
+}
+.inputcalle {
+    left: 130px;
+    position: relative;
+    bottom: 10px;
+}
+.num {
+    bottom: 30px;
+    left: 580px;
+    position: relative;
+}
+.inputnum {
+    bottom: 53px;
+    left: 652px;
+    position: relative;
+}
+.colonia {
+    bottom: 40px;
+    left: 40px;
+    position: relative;
+}
+.inputcolonia {
+    bottom: 65px;
+    left: 130px;
+    position: relative;
+}
+.cp {
+    bottom: 81px;
+    right: -578px;
+    position: relative;
+}
+.inputcp {
+    bottom: 107px;
+    right: -652px;
+    position: relative;
+}
+.ciudad {
+    bottom: 96px;
+    left: 40px;
+    position: relative;
+}
+.inputciudad {
+    bottom: 120px;
+    left: 130px;
+    position: relative;
+}
+.estado {
+    bottom: 138px;
+    position: relative;
+    right: -578px;
+}
+.inputestado {
+    bottom: 162px;
+    position: relative;
+    right: -652px;
+}
+/*****************************
+      grupo: contacto
+******************************/
 
-div#indicadores .row-fluid:nth-child(odd):not(#indicadores-headers) 
-{
-
-    background-color: GhostWhite;
-	border: 1px solid Gainsboro;
+.web {
+    bottom: -19px;
+    left: 40px;
+    position: relative;
+}
+.inputweb {
+    bottom: 5px;
+    left: 172px;
+    position: relative;
+}
+.teluno {
+    left: 40px;
+    position: relative;
+    top: 8px;
+}
+.inputteluno {
+    bottom: 16px;
+    left: 172px;
+    position: relative;
+}
+.extuno {
+    bottom: 35px;
+    position: relative;
+    right: -578px;
+}
+.inputextuno {
+    bottom: 60px;
+    position: relative;
+    right: -652px;
+}
+.teldos {
+    left: 40px;
+    position: relative;
+    top: -45px;
+}
+.inputteldos {
+    bottom: 70px;
+    left: 172px;
+    position: relative;
+}
+.extdos {
+    bottom: 88px;
+    position: relative;
+    right: -578px;
+}
+.inputextdos {
+    bottom: 112px;
+    position: relative;
+    right: -652px;
+}
+.cnt_e {
+    bottom: 105px;
+    left: 40px;
+    position: relative;
+}
+.inputcnt_e {
+    bottom: 140px;
+    left: 172px;
+    position: relative;
+}
+.cnt_vi {
+    bottom: 165px;
+    left: 40px;
+    position: relative;
+}
+.inputcnt_vi {
+    bottom: 200px;
+    left: 172px;
+    position: relative;
+}
+.e-mailuno {
+    bottom: 160px;
+    position: relative;
+    right: -578px;
+}
+.inpute-mailuno {
+    bottom: 185px;
+    position: relative;
+    right: -652px;
+}
+.e-maildos {
+    bottom: 220px;
+    position: relative;
+    right: -578px;
+}
+.inpute-maildos {
+    bottom: 245px;
+    position: relative;
+    right: -652px;
+}
+/*****************************
+      grupo: Programas Educativos
+******************************/
+.pe_1 {
+    bottom: -5px;
+    position: relative;
+    right: -45px;
+}
+.pe_2 {
+    bottom: 78px;
+    position: relative;
+    right: -220px;
+}
+.pe_3 {
+    bottom: 160px;
+    position: relative;
+    right: -390px;
+}
+/*****************************
+      grupo: Competencias
+******************************/
+.competencias {
+    bottom: -25px;
+    position: relative;
+    right: 0px;
+    width: 99%;
+    height: 135px;
+	
+}
+/*****************************
+      grupo: Observaciones
+******************************/
+.observaciones {
+    bottom: -7px;
+    position: relative;
+    right: 0;
+    width: 80%;
+    height: 85px; 
+	vertical-align: top;
+	display: block;
+	
+}
+.btn1 {
+    bottom: 83px;
+    position: relative;
+    right: -760px;
+    word-spacing: 6px;
+}
+.btn2 {
+    bottom: 58px;
+    position: relative;
+    right: -760px;
+    word-spacing: 6px;
+}
+/*****************************
+      grupo: Empresa-Alumnos
+******************************/
+.numero-alum {
+    left: 40px;
+    position: relative;
+    top: 10px;
+}
+.inputnumero-alum {
+    bottom: 14px;
+    left: 170px;
+    position: relative;
+}
+.name-alum {
+    bottom: 0px;
+    left: 40px;
+    position: relative;
+}
+.inputname-alum {
+    bottom: 23px;
+    left: 170px;
+    position: relative;
+}
+.web-alum {
+    bottom: 10px;
+    left: 40px;
+    position: relative;
+}
+.inputweb-alum {
+    bottom: 32px;
+    left: 170px;
+    position: relative;
+}
+/*****************************
+Contenedor para Session
+******************************/
+.container-session {
+    border: 2px solid GhostWhite;
+    border-radius: 15px 15px 15px 15px;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 0.9em;
+    font-weight: lighter;
+    height: 576px;
+    margin-left: 0%;
+    margin-top: 1%;
+    width: 100%;
+}
+.login {
+    border: 4px solid ghostWhite;
+    border-radius: 15px 15px 15px 15px;
+    font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 0.9em;
+    font-weight: lighter;
+    height: 290px;
+    margin-left: 0;
+    margin-top: 1%;
+    width: 25%;
+    position: relative;
+    top: 80px;
+    left: 525px;
+}
+.btn-primary {
+    
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-radius: 5px 5px 5px 5px;
+	color: white;
+	width: 10%;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 4px 10px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+	background-color: #B81600;
+    background-image: -moz-linear-gradient(center top , #D60D00, #B81600);
+}
+.well {
+    background-color: #F5F5F5;
+    border: 1px solid ghostWhite;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 25px;
+    width: 296px;
+    margin-left: 18px;
+    height: 205px;
+}
+.etiqueta {
+    background-color: #0074CC;
+    background-image: -moz-linear-gradient(center top , #0088CC, #0055CC);
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 18px;
+	text-align: center;
 }
 
