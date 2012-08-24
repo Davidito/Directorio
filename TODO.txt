@@ -1,0 +1,13 @@
+En la tabla general estan insertados los campos numero, correo contacto visita ind. y correo contacto estadia...
+
+En la tabla siin_control_escolar estan las tablas:
+
+esc_cal_competencia_empresa
+y
+planes_competencia_especifica...
+
+
+ya vienen los constrains en las tablas...
+
+
+!!!!!!!!!!!!!!!!!!!!!
