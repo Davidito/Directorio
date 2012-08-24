@@ -5,7 +5,7 @@
 ********************************************************************************/
 .span12 {
     
-    width: 104%;
+    width: 113%;
 }
 .span11 {
    
@@ -59,7 +59,7 @@
 
 div.navbar {
     background: url("../img/navbar.png") repeat scroll 407px 574px #66CC00;
-    border: 1px solid ;
+    border: 1px solid;
     color: white;
     font-family: Verdana;
     font-size: 1.3em;
@@ -70,16 +70,31 @@ div.navbar {
     text-align: right;
     font-weight: bold;
 }
+.navbarbottom {
+     background: none repeat scroll 0 0 ghostWhite;
+    border: 2px solid ghostWhite;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    font-family: "Arial";
+    font-size: 0.9em;
+    font-weight: lighter;
+    height: auto;
+    margin: auto auto 20px;
+    padding: 14px;
+    text-align: center;
+    width: 96%;
+}
 
 /*****************************
 Contenedor para docentes y Admin
 ******************************/
 .container {
     border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 5px GhostWhite;
     font-family: "Arial";
 	font-size: 0.9em;
     font-weight: lighter;
-    height: 1200px;
+    height: auto;
     border: 2px solid GhostWhite;
     width: 80%;
     margin-left: 10%;
@@ -94,7 +109,7 @@ Contenedor para docentes y Admin
     font-family: "Arial";
 	font-size: 0.9em;
     font-weight: lighter;
-    height: 680px;
+    height: auto;
     border: 2px solid GhostWhite;
     width: 80%;
     margin-left: 10%;
@@ -103,6 +118,7 @@ Contenedor para docentes y Admin
 }
 .botones {
     background: none repeat scroll 0 0 MintCream;
+    box-shadow: 0 0 5px LightGrey;
     border: 2px solid LightGrey;
     border-radius: 10px 10px 10px 10px;
     display: block;
@@ -117,6 +133,7 @@ Contenedor para docentes y Admin
 ******************************/
 .group {
     border: 2px solid LawnGreen;
+     box-shadow: 0 0 5px LawnGreen;
 	border-radius: 10px 10px 10px 10px;
     font-family: "Arial";
     font-size: 1.1em;
@@ -136,6 +153,7 @@ Contenedor para docentes y Admin
 ******************************/
 .group2 {
     border: 2px solid LawnGreen;
+    box-shadow: 0 0 5px LawnGreen;
 	border-radius: 10px 10px 10px 10px;
     font-family: "Arial";
     font-size: 1.1em;
@@ -175,211 +193,211 @@ Contenedor para docentes y Admin
       grupo: Empresa
 ******************************/
 .numero {
+    left: 1%;
     position: relative;
-    top: 14px;
-    left: 40px;
+    top: 15%;
 }
 .inputnumero {
-    left: 130px;
+    bottom: 10%;
+    left: 12%;
     position: relative;
-    bottom: 10px;
 }
 .clave {
-    left: 329px;
+    bottom: 31%;
+    left: 35%;
     position: relative;
-    bottom: 30px;
 }
 .inputclave {
-    left: 400px;
+    bottom: 56%;
+    left: 44%;
     position: relative;
-    bottom: 55px;
 }
 .name {
-    bottom: 40px;
-    left: 40px;
+    bottom: 46%;
+    left: 1%;
     position: relative;
 }
 .inputname {
-    bottom: 65px;
-    left: 130px;
+    bottom: 70%;
+    left: 12%;
     position: relative;
 }
 .sector {
-    bottom: 52px;
-    left: 40px;
+    bottom: 60%;
+    left: 1%;
     position: relative;
 }
 .inputsector {
-    bottom: 75px;
-    left: 130px;
+    bottom: 83%;
+    left: 12%;
     position: relative;
 }
 .tamano {
-    bottom: 96px;
-    left: 329px;
+    bottom: 106%;
+    left: 61%;
     position: relative;
 }
 .inputtamano {
-    bottom: 120px;
-    left: 401px;
+    bottom: 130%;
+    left: 72%;
     position: relative;
 }
 /*****************************
       grupo: direccion
 ******************************/
 .calle {
-    left: 40px;
+    left: 1%;
     position: relative;
-    top: 14px;
+    top: 14%;
 }
 .inputcalle {
-    left: 130px;
+    bottom: 11%;
+    left: 12%;
     position: relative;
-    bottom: 10px;
 }
 .num {
-    bottom: 30px;
-    left: 580px;
+    bottom: 32%;
+    left: 62%;
     position: relative;
 }
 .inputnum {
-    bottom: 53px;
-    left: 652px;
+    bottom: 57%;
+    left: 72%;
     position: relative;
 }
 .colonia {
-    bottom: 40px;
-    left: 40px;
+    bottom: 48%;
+    left: 1%;
     position: relative;
 }
 .inputcolonia {
-    bottom: 65px;
-    left: 130px;
+    bottom: 72%;
+    left: 12%;
     position: relative;
 }
 .cp {
-    bottom: 81px;
-    right: -578px;
+    bottom: 94%;
     position: relative;
+    left: 62%;
 }
 .inputcp {
-    bottom: 107px;
-    right: -652px;
+    bottom: 118%;
     position: relative;
+    left: 72%;
 }
 .ciudad {
-    bottom: 96px;
-    left: 40px;
+    bottom: 108%;
+    left: 1%;
     position: relative;
 }
 .inputciudad {
-    bottom: 120px;
-    left: 130px;
+    bottom: 132%;
+    left: 12%;
     position: relative;
 }
 .estado {
-    bottom: 138px;
+    bottom: 155%;
     position: relative;
-    right: -578px;
+    left: 62%;
 }
 .inputestado {
-    bottom: 162px;
+    bottom: 178%;
     position: relative;
-    right: -652px;
+    left: 72%;
 }
 /*****************************
       grupo: contacto
 ******************************/
 
 .web {
-    bottom: -19px;
-    left: 40px;
+    left: 1%;
     position: relative;
+    top: 10%;
 }
 .inputweb {
-    bottom: 5px;
-    left: 172px;
+    bottom: 2%;
+    left: 18%;
     position: relative;
 }
 .teluno {
-    left: 40px;
+    left: 1%;
     position: relative;
-    top: 8px;
+    top: 2%;
 }
 .inputteluno {
-    bottom: 16px;
-    left: 172px;
+    bottom: 10%;
+    left: 18%;
     position: relative;
 }
 .extuno {
-    bottom: 35px;
+    bottom: 22%;
+    left: 60%;
     position: relative;
-    right: -578px;
 }
 .inputextuno {
-    bottom: 60px;
+    bottom: 33%;
+    left: 68%;
     position: relative;
-    right: -652px;
 }
 .teldos {
-    left: 40px;
+    bottom: 28%;
+    left: 1%;
     position: relative;
-    top: -45px;
 }
 .inputteldos {
-    bottom: 70px;
-    left: 172px;
+    bottom: 41%;
+    left: 18%;
     position: relative;
 }
 .extdos {
-    bottom: 88px;
+    bottom: 50%;
+    left: 60%;
     position: relative;
-    right: -578px;
 }
 .inputextdos {
-    bottom: 112px;
+    bottom: 64%;
     position: relative;
-    right: -652px;
+    left: 68%;
 }
 .cnt_e {
-    bottom: 105px;
-    left: 40px;
+    bottom: 60%;
+    left: 1%;
     position: relative;
 }
 .inputcnt_e {
-    bottom: 140px;
-    left: 172px;
+    bottom: 80%;
+    left: 18%;
     position: relative;
 }
 .cnt_vi {
-    bottom: 165px;
-    left: 40px;
+    bottom: 96%;
+    left: 1%;
     position: relative;
 }
 .inputcnt_vi {
-    bottom: 200px;
-    left: 172px;
+    bottom: 118%;
+    left: 18%;
     position: relative;
 }
 .e-mailuno {
-    bottom: 160px;
+    bottom: 90%;
     position: relative;
-    right: -578px;
+    left: 60%;
 }
 .inpute-mailuno {
-    bottom: 185px;
+    bottom: 103%;
     position: relative;
-    right: -652px;
+    left: 68%;
 }
 .e-maildos {
-    bottom: 220px;
+    bottom: 128%;
     position: relative;
-    right: -578px;
+    left: 60%;
 }
 .inpute-maildos {
-    bottom: 245px;
+    bottom: 142%;
     position: relative;
-    right: -652px;
+    left: 68%;
 }
 /*****************************
       grupo: Programas Educativos
@@ -403,69 +421,63 @@ Contenedor para docentes y Admin
       grupo: Competencias
 ******************************/
 .competencias {
-    bottom: -25px;
+    height: 76%;
     position: relative;
-    right: 0px;
+    right: 0;
+    top: 8%;
     width: 99%;
-    height: 135px;
-	
+    vertical-align: top;
 }
 /*****************************
       grupo: Observaciones
 ******************************/
 .observaciones {
-    bottom: -7px;
+    display: block;
+    height: 93%;
+    left: 1%;
     position: relative;
-    right: 0;
+    top: 4%;
+    vertical-align: top;
     width: 80%;
-    height: 85px; 
-	vertical-align: top;
-	display: block;
-	
 }
 .btn1 {
-    bottom: 83px;
+    bottom: 95%;
     position: relative;
-    right: -760px;
+    left: 84%;
     word-spacing: 6px;
 }
 .btn2 {
-    bottom: 58px;
+    bottom: 82%;
     position: relative;
-    right: -760px;
+    left: 84%;
     word-spacing: 6px;
 }
 /*****************************
       grupo: Empresa-Alumnos
 ******************************/
-.numero-alum {
-    left: 40px;
-    position: relative;
-    top: 10px;
-}
 .inputnumero-alum {
-    bottom: 14px;
-    left: 170px;
+    bottom: 14%;
+    left: 18%;
     position: relative;
 }
 .name-alum {
-    bottom: 0px;
-    left: 40px;
+    bottom: 1%;
+    left: 1%;
     position: relative;
 }
 .inputname-alum {
-    bottom: 23px;
-    left: 170px;
+    bottom: 26%;
+    left: 18%;
     position: relative;
 }
 .web-alum {
-    bottom: 10px;
-    left: 40px;
+    bottom: 16%;
+    left: 1%;
     position: relative;
 }
 .inputweb-alum {
-    bottom: 32px;
-    left: 170px;
+    bottom: 40%;
+    left: 18%;
     position: relative;
 }
 /*****************************
@@ -533,5 +545,65 @@ Contenedor para Session
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 18px;
 	text-align: center;
+}
+
+/*****************************************
+        ventana configuracion
+******************************************/
+.datosdirector {
+    border: 2px solid LawnGreen;
+    box-shadow: 0 0 5px LawnGreen;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Arial";
+    font-size: 1.1em;
+    font-weight: lighter;
+    height: auto;
+    margin: 2% 11px 11px;
+    padding: 12px;
+    width: 45%;
+}
+.detalle-conf {
+    
+    border: 2px solid ghostWhite;
+    border-radius: 5px 5px 5px 5px;
+    color: #666666;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -23px;
+    text-align: center;
+    width: 100px;
+    color: white;
+    background-color: #FFC60B;
+    background-image: -moz-linear-gradient(center top , #E08400, #FFC60B);
+    
+
+}
+.listaempresas {
+   border: 2px solid LawnGreen;
+    box-shadow: 0 0 5px LawnGreen;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Arial";
+    font-size: 1.1em;
+    font-weight: lighter;
+    height: auto;
+    margin: 2% 11px 11px;
+    padding: 12px;
+    width: 45%;
+}
+.competencias-carrera {
+    height: 136px;
+    left: 1%;
+    position: relative;
+    top: 12%;
+    width: 97%;
+     vertical-align: top;
+}
+.competencias {
+    position: fixed;
+    top: 32%;
+    left: 50%;
+    width: 28%;
+    height: auto;
 }
 
