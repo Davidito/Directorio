@@ -11,3 +11,19 @@ ya vienen los constrains en las tablas...
 
 
 !!!!!!!!!!!!!!!!!!!!!
+
+
+/********************************************
+
+MODIFICACIONES DE SINTAXIS PARA LAS BD´s --->David Pérez
+********************************************/
+ 
+bd-> siin_generales->tabla->gral_empresa->campo->contacto_visita->tipodedato-> cambiar a text
+
+
+falta insertar un UNIQUE en la tabla->esc_cal_planes_competencias_especifica_dir donde no se repitan los campos->idcompetenciaespecifica y idcompetencia
+
+
+edite en la bd-> siin_generales->tabla->gral_empresa-> una filta dond el idempresa = 000001
+
+NO sirve la bd--> control escolar es necesario ingresar las tablas una por una
