@@ -25,17 +25,18 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- Estructura de tabla para la tabla `planes_competencia_especifica_dir`
 --
 
-CREATE TABLE IF NOT EXISTS `planes_competencia_especifica_dir` (
+CREATE TABLE IF NOT EXISTS `esc_cal_planes_competencias_especifica_dir` (
   `idcompetenciaespecifica` int(4) NOT NULL,
   `idcompetencia` int(4) NOT NULL,
   `competencia` mediumtext NOT NULL
+  
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Volcar la base de datos para la tabla `planes_competencia_especifica_dir`
 --
 
-INSERT INTO `planes_competencia_especifica_dir` (`idcompetenciaespecifica`, `idcompetencia`, `competencia`) VALUES
+INSERT INTO `esc_cal_planes_competencias_especifica_dir` (`idcompetenciaespecifica`, `idcompetencia`, `competencia`) VALUES
 (1, 1, 'Implementar aplicaciones de software; mediante técnicas de programación y considerando los requerimientos de la organización; para eficientar sus procesos.'),
 (2, 1, 'Implementar y realizar soporte técnico a equipo de cómputo, sistemas operativos y redes locales; de acuerdo a las necesidades técnicas de la organización,  para garantizar el óptimo funcionamiento de sus recursos informáticos.'),
 (3, 1, 'Implementar sistemas de información de calidad, a través de técnicas avanzadas de desarrollo de software para eficientar los procesos de las organizaciones.'),
@@ -69,7 +70,7 @@ INSERT INTO `planes_competencia_especifica_dir` (`idcompetenciaespecifica`, `idc
 --
 -- Constraints for table `planes_competencia_especifica_dir`
 --
-ALTER TABLE `planes_competencia_especifica_dir`
+ALTER TABLE `esc_cal_planes_competencias_especifica_dir`
   ADD CONSTRAINT `fk_competencia_generica` FOREIGN KEY (`idcompetencia`) REFERENCES `esc_cal_planes_competencias_pe` (`idcompetencia`) ON DELETE NO ACTION ON UPDATE NO ACTION;
   
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
