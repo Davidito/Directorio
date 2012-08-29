@@ -61,7 +61,7 @@
 
 		$resultSetGetDatos = mysql_query($sqlEmpresa);
 		$row = mysql_fetch_array($resultSetGetDatos);
-		//echo ($row['idcarrera']);
+		//echo $sqlEmpresa;
 		$plantillaElemento = "";
 
 		/***<!--Grupo Empresa-->***/
@@ -239,12 +239,12 @@
 		$plantillaElemento .=	"<div class = 'detalle'>Programas Educativos</div>";
 		$plantillaElemento .=		"<div class = 'pe_1'>";
 		$plantillaElemento .=			"<div>";
-		//$plantillaElemento .=					
-		if($row['idcarrera']="5"){
-					$plantillaElemento .=		"<input type = 'checkbox' checked='checked' />TIC";	
+		$plantillaElemento .=				"<input type = 'checkbox' />TIC";	
+		/*if($row['idcarrera'] = 1){
+					$plantillaElemento .=		;
 				}else{
-					$plantillaElemento .=		"<input type = 'checkbox'/>TIC";
-				}
+					$plantillaElemento .=		".........";
+				}*/
 		$plantillaElemento .=			"</div>";
 		$plantillaElemento .=			"<div>";
 		$plantillaElemento .=				"<input type = 'checkbox'/>AYEP";
@@ -297,7 +297,7 @@
 		$plantillaElemento .=	"</div>";
 		$plantillaElemento .=	"<div class = 'btn2 span2'>";
 		$plantillaElemento .=		"<button>Obra Observaci&oacute;n</button>";
-		$plantillaElemento .=		"</div>";
+		$plantillaElemento .=	"</div>";
 		$plantillaElemento .="</div>";
 		
 
